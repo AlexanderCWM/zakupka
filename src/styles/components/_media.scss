@@ -1,0 +1,69 @@
+@media screen and (max-width: 1580px){
+    header .main_menu{
+        justify-content: space-between;
+    }
+    header .main_menu ul.menu_list li.menu_list_item{
+        padding: 25px 20px;
+    }
+    header .main_menu ul.menu_list li.menu_list_item a.menu_list_link{
+        font-size: 20px;
+    }
+    header .main_menu ul.icon_list li a{
+        font-size: 20px;
+    }
+    header .main_menu ul.icon_list li:first-child{
+        margin-left: auto;
+    }
+    .content .shop_content .cards-row .item_card .card_description{
+        height: 70px;
+    }
+}
+@media screen and (max-width: 1300px) {
+
+}
+@media screen and (max-width: 1200px) {
+    .toggle_btn{
+        display: flex;
+    }
+      .menu_list{
+          display: none;
+      }
+      footer .wrapper{
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      footer .wrapper>div{
+          margin-top: 15px;
+          width: 45%;
+      }
+      .content .wrapper .filter_column .price-range{
+        flex-direction: column;
+      }
+      .content .wrapper .filter_column .price-range .input_border{
+          width: auto;
+          margin: 10px 0;
+      }
+      .content .wrapper .filter_column .price-range .apply-btn span{
+          padding: 10px 80px;
+      }
+      .cards-row.six-cards-row{
+          flex-wrap: wrap;
+      }
+      .six-cards-row .item_card{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 792px) {
+    .six-cards-row .item_card{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
